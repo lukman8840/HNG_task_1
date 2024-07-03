@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+section {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.profile h2, .profile p {
+    margin: 0.5rem 0;
+}
+
+.goals, .links, .time-info {
+    margin: 2rem 0;
+}
+
+.links a {
+    display: block;
+    margin: 0.5rem 0;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .profile img {
+        width: 100px;
+        height: 100px;
+    }
+}
